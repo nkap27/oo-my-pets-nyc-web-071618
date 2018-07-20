@@ -9,4 +9,7 @@ class Fish
     @mood = mood
     @@all << self
   end
+
+  def self.all
+  end
 end
