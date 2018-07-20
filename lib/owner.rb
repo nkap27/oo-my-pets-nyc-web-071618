@@ -21,4 +21,7 @@ class Owner
   def self.count
     self.all.size
   end
+
+  def say_species
+  end
 end
