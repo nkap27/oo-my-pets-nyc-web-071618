@@ -21,7 +21,7 @@ class Owner
     self.all.size
   end
 
-  def species
-    @species = species
+  def species(specie)
+    @species = specie
   end
 end
