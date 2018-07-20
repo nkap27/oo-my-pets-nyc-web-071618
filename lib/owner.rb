@@ -21,6 +21,5 @@ class Owner
   end
 
   def species
-    @species = species
   end
 end
