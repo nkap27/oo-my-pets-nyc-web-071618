@@ -31,7 +31,7 @@ class Owner
   end
 
   def buy_fish(name)
-    :fishes.find do |fish|
+    @@fishes.find do |fish|
       fish == name
     end
 
