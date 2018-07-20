@@ -31,7 +31,7 @@ class Owner
   end
 
   def buy_fish(name)
-    self.pets.fishes[0].find do |fish|
+    self.pets.fishes.name.find do |fish|
       fish == name
     end
 
