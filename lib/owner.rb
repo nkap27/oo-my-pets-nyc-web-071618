@@ -6,6 +6,7 @@ class Owner
   def initialize(name)
     @name = name
     @@all_owners << self
+    @species = species
   end
 
   def self.all
@@ -21,5 +22,6 @@ class Owner
   end
 
   def species
+
   end
 end
